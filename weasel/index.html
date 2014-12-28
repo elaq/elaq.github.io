@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/weaselicon.gif">
+
+    <title>Weasel program</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">weasel</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="http://en.wikipedia.org/wiki/Weasel_program" target="_blank">Wiki</a></li>
+                <li><a href="http://students.mimuw.edu.pl/~ek266745/" target="_blank">Author</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://students.mimuw.edu.pl/~ek266745/www/sudoku.html" target="_blank">Sudoku</a></li>
+					<li class="divider"></li>
+                    <li><a href="http://www.python.org/" target="_blank">Python</a></li>
+                    <li><a href="http://www.cherrypy.org/" target="_blank">CherryPy</a></li>
+						<li><a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+	  <div class="carousel-inner">
+	  	<div class="item active">
+			<img src="img/typewriter.jpg" alt="First slide">
+			<div class="container">
+            <div class="carousel-caption">
+              <h1>The Blind Watchmaker.</h1>
+              <p>I don't know who it was first pointed out that, given enough time, a monkey bashing away at random on a typewriter could produce all the
+			  works of Shakespeare. The operative phrase is, of course, given enough time.</p>
+              <p><a class="btn btn-large btn-primary" href="#overview">Overview</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+		  <img src="img/weasel.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Weasel program.</h1>
+              <p>The weasel program or the Dawkins weasel is a thought experiment and a variety of computer simulations illustrating it.
+			  Their aim is to demonstrate that the process that drives evolutionary systems — random variation combined with non-random
+			  cumulative selection — is different from pure chance.</p>
+              <p><a class="btn btn-large btn-primary" href="#weasel">Weasel program</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+		<img src="img/code.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Oh yeah, it's that easy. See for yourself.</h1>
+			  <blockquote><p style="font-size:16px">Computers are a bit faster at this kind of thing than monkeys, but the difference really isn't significant.
+			  What matters is the difference between the time taken by cumulative selection, and the time which the same computer,
+			  working flat out at the same rate, would take to reach the target phrase if it were forced to use the other procedure
+			  of single-step selection: about a million million million million million years.</p>
+			  <footer>- R. Dawkins, The Blind Watchmaker Oxford University Press (1986).</footer></blockquote>
+              <p><a class="btn btn-large btn-primary" href="#code">Python code</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+
+      <div class="row featurette" id="overview">
+	    <div class="col-md-5">
+           <img class="featurette-image img-responsive" src="img/hamlet.jpg" alt="Generic placeholder image">		   
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">The Blind <span class="text-muted">Watchmaker.</span></h2>
+          <p class="lead" align="justify">Let us limit the task facing our monkey somewhat. Suppose that he has to produce, not the complete works of Shakespeare but just the short sentence <i>'Methinks it is like a weasel'</i>,
+		  and we shall make it relatively easy by giving him a typewriter with a restricted keyboard, one with just the 26 (capital) letters,
+		  and a space bar. How long will he take to write this one little sentence? 
+		  <blockquote>
+			<p><i>Hamlet</i>: Do you see yonder cloud that's almost in shape of a camel?<br><br>
+						<i>Polonius</i>: By the mass, and 'tis like a camel, indeed.<br><br>
+						<i>Hamlet</i>: Methinks it is like a weasel.</p>
+			<footer>- W. Shakespeare, Hamlet.</footer>
+		 </blockquote>
+		</div>
+		</div>
+	<div class ="row featurette">
+		<div class="col-md-12">
+		<p class="lead" align="justify">
+		The scenario is staged to produce a string of gibberish letters, assuming that the selection of each letter in a sequence of 28 
+		characters will be random. The number of possible combinations in this random sequence is 27<sup>28</sup>, or about 10<sup>40</sup>,
+		so the probability that the monkey will produce a given sequence is extremely low.
+		A computer program could be written to carry out the actions of Dawkins's hypothetical monkey, continuously generating combinations
+		of 26 letters and spaces at high speed. Even at the rate of millions of combinations per second, it is unlikely, even given the entire
+		lifetime of the universe to run, that the program would ever produce the phrase "METHINKS IT IS LIKE A WEASEL".<br>
+		Dawkins intends this example to illustrate a common misunderstanding of evolutionary change, i.e. that DNA sequences or organic
+		compounds such as proteins are the result of atoms randomly combining to form more complex structures. In these types of computations,
+		any sequence of amino acids in a protein will be extraordinarily improbable (this is known as Hoyle's fallacy).
+		Rather, evolution proceeds by hill climbing, as in adaptive landscapes. Dawkins then goes on to show that a process of cumulative
+		selection can take far fewer steps to reach any given target.
+		</p>
+</p>
+        </div>
+      </div>
+	  
+      <hr class="featurette-divider">
+	  
+	   <div class="row featurette" id="weasel">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Weasel <span class="text-muted">program.</span></h2>
+		<blockquote>
+		<p align="justify"><i>We again use our computer monkey, but with a crucial difference in its program. It again begins by choosing a random sequence
+		of 28 letters, just as before ... it duplicates it repeatedly, but with a certain chance of random error – 'mutation' –
+		in the copying. The computer examines the mutant nonsense phrases, the 'progeny' of the original phrase, and chooses the
+		one which, however slightly, most resembles the target phrase, METHINKS IT IS LIKE A WEASEL.</i></p>
+		<footer>- R. Dawkins, The Blind Watchmaker, Oxford University Press (1986).</footer>
+		</blockquote>
+		<p class="lead" align="justify">By repeating the procedure, a randomly generated sequence of 28 letters and spaces will be gradually changed each generation.
+		The sequences progress through each generation:</p>
+
+		<blockquote>
+		<p>Generation 01:   WDLTMNLT DTJBKWIRZREZLMQCO P<br>
+		   Generation 02:   WDLTMNLT DTJBSWIRZREZLMQCO P<br>
+		   Generation 10:   MDLDMNLS ITJISWHRZREZ MECS P<br>
+           Generation 20:   MELDINLS IT ISWPRKE Z WECSEL<br>
+		   Generation 30:   METHINGS IT ISWLIKE B WECSEL<br>
+		   Generation 40:   METHINKS IT IS LIKE I WEASEL<br>
+		   Generation 43:   METHINKS IT IS LIKE A WEASEL
+		</p></blockquote>
+		</div>
+        <div class="col-md-5">
+			<img class="featurette-image img-responsive" src="img/monkey.jpg" alt="Generic placeholder image">
+        </div>
+		</div>
+		<div class="row featurette">
+		  <div class="col-md-12">
+		<p class="lead" align="justify">The program aims to demonstrate that the preservation of small changes in an evolving string of characters (or genes) can produce
+		meaningful combinations in a relatively short time as long as there is some mechanism to select cumulative changes, whether it is
+		a person identifying which traits are desirable (in the case of artificial selection) or a criterion of survival ("fitness") imposed
+		by the environment (in the case of natural selection). Reproducing systems tend to preserve traits across generations, because the
+		offspring inherit a copy of the parent's traits. It is the differences between offspring, the variations in copying, which become
+		the basis for selection, allowing phrases closer to the target to survive, and the remaining variants to "die."<br><br>
+       
+		 Although Dawkins did not provide the source code for his program, a "Weasel" style algorithm could run as follows.
+		 <blockquote>
+		<ol style="font-size:20px"><li> Start with a random string of 28 characters.</li><br>
+		<li>Make 100 copies of this string, with a 5% chance per character of that character being replaced with a random character.</li><br>
+		<li>Compare each new string with the target "METHINKS IT IS LIKE A WEASEL", and give each a score
+		(the number of letters in the string that are correct and in the correct position).</li><br>
+		<li>If any of the new strings has a perfect score (28), halt. Otherwise, take the highest scoring string, and go to step 2.</li>
+		</blockquote>
+		<p class="lead" align="justify">For these purposes, a "character" is any uppercase letter, or a space.
+		The number of copies per generation, and the chance of mutation per letter are not specified in Dawkins's book;
+		100 copies and a 5% mutation rate are examples. Correct letters are not "locked". Each correct letter may become
+		incorrect in subsequent generations. The terms of the program and the existence of the target phrase do however mean that
+		such 'negative mutations' will quickly be 'corrected'.</p>
+	 </div>
+      </div>
+
+      <hr class="featurette-divider">
+	  
+      <div class="row featurette"  id="code">
+        <div class="col-md-1">
+        </div>	
+        <div class="col-md-10">
+          <h2 class="featurette-heading">Oh yeah, it's that easy. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead"><script src="https://gist.github.com/elaq/7232468.js"></script></p>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 EK.</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap-3.0.0/assets/js/holder.js"></script>
+  </body>
+</html>
