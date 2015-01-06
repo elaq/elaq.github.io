@@ -1,0 +1,12 @@
+STUDENT:
+
+login: 654321
+has³o: student
+
+
+ADMINISTRATOR:
+
+login: 123456
+has³o: admin
+
+
