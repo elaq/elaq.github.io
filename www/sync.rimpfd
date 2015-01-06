@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rimpfd>
+    <destination path="/Sudoku"/>
+    <options createDirectoryStructure="false" createSelectedOnly="true" descriptionFilePath="/Sudoku/sync.rimpfd" overWriteExistingFiles="true" reviewSynchronize="false" saveSettings="true"/>
+    <source path="LaptopEli.students.mimuw.edu.pl:/home/dokstud/ek266745/public_html/www"/>
+    <selectedElements>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku.html~"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku.html"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/jquery.js"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/sudoku.html"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/sudoku.html.1"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/sudoku.html.2"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/sudoku.html.3"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/sudoku.html.4"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/sudoku.html.5"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/sudoku.html.6"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/sudoku.html.7"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/sudoku.html.8"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/esudoku.html"/>
+        <file path="/home/dokstud/ek266745/public_html/www/sudoku/sudoku2.html"/>
+        <file path="/home/dokstud/ek266745/public_html/www/css/screen.css"/>
+        <file path="/home/dokstud/ek266745/public_html/www/css/lightbox.css"/>
+        <file path="/home/dokstud/ek266745/public_html/www/css/bootstrap-responsive.css"/>
+        <file path="/home/dokstud/ek266745/public_html/www/css/bootstrap-responsive.min.css"/>
+        <file path="/home/dokstud/ek266745/public_html/www/css/bootstrap.min.css"/>
+        <file path="/home/dokstud/ek266745/public_html/www/css/bootstrap.css"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/speech-bubbles.png"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/prev.png"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/next.png"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/loading.gif"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/favicon.gif"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/donate.png"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/close.png"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/bullet.gif"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/box.png"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/bg-checker.png"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/.DS_Store"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/glyphicons-halflings.png"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/glyphicons-halflings-white.png"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/london.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/thumb-6.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/thumb-5.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/thumb-4.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/thumb-3.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/thumb-2.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/thumb-1.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/image-6.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/image-5.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/image-4.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/image-3.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/image-2.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/images/examples/image-1.jpg"/>
+        <file path="/home/dokstud/ek266745/public_html/www/js/lightbox.js"/>
+        <file path="/home/dokstud/ek266745/public_html/www/js/jquery.smooth-scroll.min.js"/>
+        <file path="/home/dokstud/ek266745/public_html/www/js/jquery-ui-1.8.18.custom.min.js"/>
+        <file path="/home/dokstud/ek266745/public_html/www/js/jquery-1.7.2.min.js"/>
+        <file path="/home/dokstud/ek266745/public_html/www/js/.DS_Store"/>
+        <file path="/home/dokstud/ek266745/public_html/www/js/bootstrap.js"/>
+        <file path="/home/dokstud/ek266745/public_html/www/js/bootstrap.min.js"/>
+        <file path="/home/dokstud/ek266745/public_html/www/js/jquery.js"/>
+    </selectedElements>
+</rimpfd>

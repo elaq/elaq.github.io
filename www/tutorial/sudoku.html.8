@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Sudoku</title>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript">
+            var opisPlanszy =
+            "020730001" +
+            "009010047" +
+            "000208900" +
+            "000600802" +
+            "207853406" +
+            "804007000" +
+            "003405000" +
+            "640080700" +
+            "100072090";
+        
+            function wspolrzedne(i)
+            {
+                if (i < 0 || i > 80) alert("wspolrzedne: zle dane");
+                return Math.floor(i/9) + 10 * (i % 9) + 11;
+            }
+            
+            function Plansza(opis)
+            {
+                var i;
+                plansza = "<table>";
+                for(i = 0; i < opis.length; i++)
+                {
+                    if (i % 9 == 0) plansza += "<tr>";
+                    plansza += "<td class='field' id='td"+ wspolrzedne(i) +"'>";
+                    if (opis[i] == '0')
+                    {
+                        plansza += "<input type='text' size='1' maxlength='1' id='i" + wspolrzedne(i) + "'>";
+                    }
+                    else
+                    {
+                        plansza += "<input type='text' size='1' maxlength='1' readonly= '' id='i" + wspolrzedne(i) +
+                            "' value='"+opis[i]+"'>";
+                    }
+                    plansza += "</td>";
+                    if (i % 9 == 8) plansza += "</tr>";
+                }
+                return plansza+"</table>";
+            };
+            
+            function rysujKrawedzie()
+            {
+                var i;
+                for(i = 0; i < 81; i++)
+                {
+                    if ((i + 1) % 3 == 0)
+                        $('#td'+wspolrzedne(i)).css('border-right', '3px solid');
+                    if (i % 9 == 0)
+                        $('#td'+wspolrzedne(i)).css('border-left', '3px solid');
+                    if (Math.floor(i / 9) % 3 == 0)
+                        $('#td'+wspolrzedne(i)).css('border-top', '3px solid');
+                    if (i > 71)
+                        $('#td'+wspolrzedne(i)).css('border-bottom', '3px solid');
+                }
+            }
+            $(document).ready(function(){
+                $("#plansza").html(Plansza(opisPlanszy));
+                $("table").css('border-spacing', '0');
+                rysujKrawedzie();
+            })
+        </script>
+    </head>
+    <body>
+        <div id='plansza'>Miejsce na planszę</div>
+    </body>
+</html>

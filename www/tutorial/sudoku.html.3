@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Sudoku</title>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                plansza = "<table border=1>"
+                for(i = 1; i <= 9; i++) {
+                    plansza += "<tr>";
+                    for(j = 1; j <= 9; j++) {
+                        plansza += "<td>";
+                        plansza += i * 10 + j;
+                        plansza += "</td>";
+                    }
+                    plansza += "</tr>";
+                }
+                plansza += "</table>"
+                $("#plansza").html(plansza);
+            })
+        </script>
+    </head>
+    <body>
+        <div id='plansza'>Miejsce na planszę</div>
+    </body>
+</html>
