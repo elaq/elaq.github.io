@@ -1,12 +1,10 @@
 STUDENT:
 
 login: 654321
-has≥o: student
+has≈Ço: student
 
 
 ADMINISTRATOR:
 
 login: 123456
-has≥o: admin
-
-
+has≈Ço: admin
