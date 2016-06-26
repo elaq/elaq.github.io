@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Witaj w sieci!</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Custom scripts -->
+    <script src="js/main.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Witaj w sieci!</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="https://www.google.pl/maps" target="_blank">Mapa</a></li>
+            <li><a href="https://mail.google.com/" target="_blank">Poczta Gmail</a></li>
+            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=michal.m.kijowski@gmail.com&su=Cześć%20Michał!" target="_blank">Wyślij maila do Michała</a></li>
+            <li><a href="https://web.skype.com/pl" target="_blank">Skype</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" action="http://www.google.com/search" target="_blank">
+            <input type="text" name=q size="90" class="form-control" placeholder="Wyszukaj w Googlu...">
+            <input type="submit" class="btn btn-default" value="Szukaj">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                <class id="data-styl" style="size:18px;color:white;margin-top:120px;margin-right:14px;"/></class>
+                <class id="zegar-styl" style="size:18px;color:white;margin-top:120px;margin-right:14px"/></class>
+              </h3>
+            </div>
+          </div>
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                Pogoda
+              </h3>
+            </div>
+              <ul class="list-group">
+                <iframe class="pogoda" src="https://www.meteoblue.com/pl/pogoda/widget/daily?geoloc=detect&days=7&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&coloured=coloured&pictoicon=1&maxtemperature=1&mintemperature=1&windspeed=1&winddirection=1&humidity=1&precipitation=1&precipitationprobability=1&pressure=1&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 378px;height: 362px"></iframe>
+              </ul>
+          </div>
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">Zaloguj się do konta</h3>
+            </div>
+            <ul class="list-group">
+              <a href="https://www.ipko.pl" class="list-group-item" target="_blank">PKO BP</a>
+              <a href="https://strefaklienta.upc.pl/login/?TAM_OP=login&USERNAME=unauthenticated" class="list-group-item" target="_blank">UPC Elektroniczna Faktura</a>
+              <a href="https://ssl.plusgsm.pl/ebok-web/" class="list-group-item" target="_blank">Plus GSM</a>
+              <a href="https://dziennik.librus.pl/loguj" class="list-group-item" target="_blank">Librus</a>
+            </ul>
+          </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Informacje</h3>
+            </div>
+              <ul class="list-group">
+                <a href="http://www.gazeta.pl" class="list-group-item" target="_blank">gazeta.pl</a>
+                <a href="http://www.onet.pl" class="list-group-item" target="_blank">Onet</a>
+                <a href="http://www.wp.pl" class="list-group-item" target="_blank">Wirtualna Polska</a>
+                <a href="http://www.wpolityce.pl" class="list-group-item" target="_blank">wPolityce.pl</a>
+              </ul>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Warszawa</h3>
+            </div>
+            <ul class="list-group">
+              <a href="http://warszawa.wyborcza.pl" class="list-group-item" target="_blank">Warszawa gazeta.pl</a>
+              <a href="http://www.ztm.waw.pl/rozklad_nowy.php?c=182" class="list-group-item" target="_blank">Rozkład ZTM</a>
+              <a href="http://warszawa.jakdojade.pl" class="list-group-item" target="_blank">Jak dojadę</a>
+              <a href="http://infopasazer.intercity.pl/?p=stations&q=Warszawa" class="list-group-item" target="_blank">Infopasażer Warszawa (opóźnienia pociągów)</a>
+              <a href="http://infopasazer.intercity.pl/?p=station&id=34371" class="list-group-item" target="_blank">Infopasażer Witanów</a>
+              <a href="http://www.um.warszawa.pl" class="list-group-item" target="_blank">Urząd Miasta</a>
+            </ul>
+          </div>
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">Wspólne zdjęcia i pliki</h3>
+            </div>
+            <ul class="list-group">
+              <a href="https://www.dropbox.com/sh/1733xsdzfbizz3n/AAA--3N-OrURWr0leYTSSyBSa?dl=0" class="list-group-item" target="_blank">Pliki</a>
+              <a href="https://www.dropbox.com/sh/m3k37gijwlrhtqs/AACReAydTrO7ZccT2_WZtBuRa?dl=0" class="list-group-item" target="_blank">Zdjęcia</a>
+              <a href="http://ela-i-michal.tumblr.com" class="list-group-item" target="_blank">Zdjęcia z wesela</a>
+            </ul>
+          </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">Podróże</h3>
+            </div>
+            <ul class="list-group">
+              <a href="http://rozklad-pkp.pl" class="list-group-item" target="_blank">Rozkład PKP</a>
+              <a href="http://www.rozklady.com.pl" class="list-group-item" target="_blank">Rozkład PKS</a>
+              <a href="http://www.intercity.pl/pl/" class="list-group-item" target="_blank">Kup bilet PKP</a>
+              <a href="https://pl.tripadvisor.com" class="list-group-item" target="_blank">Tripadvisor - recenzje hoteli</a>
+              <a href="http://www.booking.com/index.pl.html" class="list-group-item" target="_blank">Booking.com - recenzje hoteli</a>
+              <a href="http://www.lotnisko-chopina.pl/pl/przyloty.html#tab1" class="list-group-item" target="_blank">Lotnisko Chopina - przyloty/odloty</a>
+            </ul>
+            </ul>
+          </div>
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">Rozrywka</h3>
+            </div>
+            <ul class="list-group">
+              <a href="https://www.przepisy.pl" class="list-group-item" target="_blank">Przepisy kulinarne</a>
+              <a href="http://www.telemagazyn.pl/program-tv/#program" class="list-group-item" target="_blank">Program telewizyjny</a>
+              <a href="https://www.youtube.com" class="list-group-item" target="_blank">YouTube</a>
+              <a href="http://player.polskieradio.pl/-1" class="list-group-item" target="_blank">Słuchaj Polskiego Radia</a>
+            </ul>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Inne linki</h3>
+            </div>
+            <ul class="list-group">
+              <a href="http://ipv4.upcspeedtest.pl" class="list-group-item" target="_blank">Test prędkości internetu</a>
+              <a href="https://pl.wikipedia.org/w/index.php?search" class="list-group-item" target="_blank">Wikipedia</a>
+              <a href="https://www.doz.pl/leki" class="list-group-item" target="_blank">Encyklopedia leków</a>
+            </ul>
+          </div>
+        </div><!-- /.col-sm-4 -->
+      </div>
+    </div>
+  </body>
+
+</html>
