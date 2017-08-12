@@ -20,27 +20,27 @@
 
   <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-77c3b874f32e71b14cded5a120f42f5c7288fa52e0a37f2d5919fbd8bcfca63c.css" media="all" rel="stylesheet" />
   <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-013f798f0f1146a62a1335aa17cc86754ea9e1d4a1295f016fa93a3c3715e282.css" media="all" rel="stylesheet" />
-  
-  
+
+
   <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-65aadd1762fe5f6e44708ac1c774a84be59a802f7109155de047e4f3c9f1202a.css" media="all" rel="stylesheet" />
-  
+
 
   <meta name="viewport" content="width=device-width">
-  
+
   <title>startbootstrap-thumbnail-gallery/bootstrap.min.css at master · BlackrockDigital/startbootstrap-thumbnail-gallery · GitHub</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
 
-    
+
     <meta content="https://avatars0.githubusercontent.com/u/5191791?v=4&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="BlackrockDigital/startbootstrap-thumbnail-gallery" property="og:title" /><meta content="https://github.com/BlackrockDigital/startbootstrap-thumbnail-gallery" property="og:url" /><meta content="startbootstrap-thumbnail-gallery - A Bootstrap thumbnail gallery template created by Start Bootstrap" property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  
+
   <meta name="pjax-timeout" content="1000">
-  
+
   <meta name="request-id" content="DCE4:3296:2244DD:37DA11:598EBDAD" data-pjax-transient>
-  
+
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
 
@@ -57,7 +57,7 @@
   <meta class="js-ga-set" name="dimension1" content="Logged Out">
 
 
-  
+
 
       <meta name="hostname" content="github.com">
   <meta name="user-login" content="">
@@ -69,7 +69,7 @@
   <meta name="html-safe-nonce" content="2bd25c5101df11f2830232161c5fc16ca4645356">
 
   <meta http-equiv="x-pjax-version" content="2115ad798119c6f1569b2a4313711454">
-  
+
 
       <link href="https://github.com/BlackrockDigital/startbootstrap-thumbnail-gallery/commits/master.atom" rel="alternate" title="Recent Commits to startbootstrap-thumbnail-gallery:master" type="application/atom+xml">
 
@@ -98,15 +98,15 @@
   </head>
 
   <body class="logged-out env-production page-blob">
-    
+
 
   <div class="position-relative js-header-wrapper ">
     <a href="#start-of-content" tabindex="1" class="px-2 py-4 show-on-focus js-skip-to-content">Skip to content</a>
     <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
 
-    
-    
-    
+
+
+
 
 
 
@@ -195,11 +195,11 @@
   <div role="main">
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
     <div id="js-repo-pjax-container" data-pjax-container>
-      
 
 
 
-  
+
+
 
 
 
@@ -261,7 +261,7 @@
 
       </div>
       <div class="container">
-        
+
 <nav class="reponav js-repo-nav js-sidenav-container-pjax"
      itemscope
      itemtype="http://schema.org/BreadcrumbList"
@@ -324,16 +324,16 @@
 <div class="container new-discussion-timeline experiment-repo-nav">
   <div class="repository-content">
 
-    
+
   <a href="/BlackrockDigital/startbootstrap-thumbnail-gallery/blob/b2f8acb870dc5a02bb8cfb70ab31af456944967f/vendor/bootstrap/css/bootstrap.min.css" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
   <!-- blob contrib key: blob_contributors:v21:2a997329623d9ac744615a43af2fc336 -->
 
   <div class="file-navigation js-zeroclipboard-container">
-    
+
 <div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
   <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
-    
+
     type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
       <i>Branch:</i>
       <span class="js-select-button css-truncate-target">master</span>
@@ -501,7 +501,7 @@
   </div>
 
 
-  
+
   <div class="commit-tease">
       <span class="float-right">
         <a class="commit-tease-sha" href="/BlackrockDigital/startbootstrap-thumbnail-gallery/commit/ba755c69213c2e529512a6c96324f077c4f15c4e" data-pjax>
@@ -520,7 +520,7 @@
         <strong>1</strong>
          contributor
       </button>
-      
+
     </div>
 
     <div id="blob_contributors_box" style="display:none">
@@ -562,7 +562,7 @@
   </div>
 </div>
 
-    
+
 
   <div itemprop="text" class="blob-wrapper data type-css">
       <table class="highlight tab-size js-file-line-container" data-tab-size="8">
@@ -592,7 +592,7 @@
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">/*# sourceMappingURL=bootstrap.min.css.map */</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"></td>
       </tr>
 </table>
 
@@ -635,7 +635,7 @@
 
   </div>
 
-      
+
 <div class="container-lg site-footer-container">
   <div class="site-footer " role="contentinfo">
     <ul class="site-footer-links float-right">
@@ -673,14 +673,14 @@
   </div>
 
 
-    
+
     <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-3c926bc6b24bcd3e820b3d630df4174d158e3bdce67a60d06e62ed4a515096e7.js"></script>
-    
+
     <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-2e86427fc3eeddde6690e0ee07123bf655c33b45105f965c030855ce9293cdc0.js"></script>
-    
-    
-    
-    
+
+
+
+
   <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
     <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
     <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
@@ -699,4 +699,3 @@
 
   </body>
 </html>
-
